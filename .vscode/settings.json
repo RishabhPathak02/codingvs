@@ -1,0 +1,8 @@
+{
+    "gitlens.codeLens.enabled": true,
+    "gitlens.terminal.overrideGitEditor": true,
+    "git.autorefresh": true,
+    "git.autoStash": false,
+    "git.confirmSync": true,
+    "git.enabled": true
+}

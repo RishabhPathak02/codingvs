@@ -1,9 +1,15 @@
 #include<iostream>
 using namespace std;
 int main(){
-    int array[]={2,3,1,3,2,4,1};
+   cout<<"enter size of array"<<endl;
     int i,j;
-    int size=7;
+    int size;
+    cin>>size;
+     int array[size];
+     cout<<"enetr elements of array"<<endl;
+    for(int i=0;i<size;i++){
+        cin>>array[i];
+    }
     for(i=0;i<size;i++){
         for(j=i+1;j<size;j++){
             if(array[i]==array[j]){
@@ -14,7 +20,7 @@ int main(){
     for(i=0;i<size;i++){
         if(array[i]>0){
             int uni=array[i];
-            cout<<uni;
+            cout<<"                "<<uni;
         }
     }
     return 0;
